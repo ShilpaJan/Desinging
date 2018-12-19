@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegisterActivity">
+
+    <EditText
+        android:id="@+id/edtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text|textPersonName"
+        android:text="  "
+        android:textStyle="bold|italic" />
+
+
+    <TextView
+        android:id="@+id/txtName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="27dp"
+        android:text="Name"
+        android:textColor="#FF183445"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/txtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="91dp"
+        android:text="Address"
+        android:textColor="#FF183445"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtAddress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtName"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="81dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text|textPersonName"
+        android:text="  "
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtMobno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="155dp"
+        android:text="Mob No."
+        android:textColor="#FF183445"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtMobNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/edtAddress"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="144dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="text|textPersonName"
+        android:text="  "
+        android:textStyle="bold|italic" />
+
+    <TextView
+        android:id="@+id/txtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="218dp"
+        android:text="Email"
+        android:textColor="#FF183445"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="205dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="textEmailAddress" />
+
+
+    <TextView
+        android:id="@+id/txtPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="282dp"
+        android:text="Password"
+        android:textColor="#FF183445"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/editPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="270dp"
+        android:layout_marginEnd="30dp"
+        android:ems="10"
+        android:inputType="textPassword" />
+
+    <TextView
+        android:id="@+id/txtVehical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="343dp"
+        android:text="vehical"
+        android:textColor="#FF183445"
+        android:textSize="20sp" />
+    <EditText
+        android:id="@+id/edtVehical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="342dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  " />
+
+    <TextView
+        android:id="@+id/txtVehicalNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtName"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="403dp"
+        android:text="Vehical No"
+        android:textColor="#FF183445"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/edtVehicalNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="30dp"
+        android:layout_marginTop="400dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="  " />
+
+    <Button
+        android:id="@+id/btnRsgd"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="-153dp"
+        android:layout_marginBottom="0dp"
+        android:background="@color/colorPrimary"
+        android:text="Register"
+        android:textStyle="bold" />
+
+
+
+</RelativeLayout>

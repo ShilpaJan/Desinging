@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_service"
+            android:icon="@drawable/ic_servicing"
+            android:title="Servicing" />
+        <item
+            android:id="@+id/nav_details"
+            android:icon="@drawable/ic_form2"
+            android:title="Vehicle Detail form" />
+
+        <item
+            android:id="@+id/nav_booking"
+            android:icon="@drawable/ic_booking"
+            android:title="Booking" />
+        <item
+            android:id="@+id/nav_status"
+            android:icon="@drawable/ic_status"
+            android:title="Status of Servicing" />
+        <item
+            android:id="@+id/nav_approval"
+            android:icon="@drawable/ic_approval"
+            android:title="Approval" />
+        <item
+                android:id="@+id/nav_reminder"
+                android:icon="@drawable/ic_reminder"
+                android:title="Reminder" />
+            <item
+                android:id="@+id/nav_offers"
+                android:icon="@drawable/ic_offers"
+                android:title="Offers" />
+
+            <item
+                android:id="@+id/nav_aboutus"
+                android:icon="@drawable/ic_aboutus"
+                android:title="About Us" />
+
+    </group>
+</menu>
